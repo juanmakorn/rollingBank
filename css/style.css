@@ -1,0 +1,55 @@
+#centrarImagen {
+  text-align: center;
+}
+.rectangulo {
+  margin: 12px;
+}
+
+.cuadros {
+  display: flex;
+}
+.border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.precios {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .d-flex {
+    flex-direction: column;
+  }
+  .displays {
+    display: block;
+  }
+  .style {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .img-redimension {
+    width: 100%;
+  }
+  .simbolos {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .direccionPrecio {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .style {
+    max-width: 100%;
+    height: auto;
+  }
+}
